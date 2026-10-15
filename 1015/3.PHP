@@ -4,7 +4,7 @@ echo "# Name: 林千琪<br>";
 echo "EX03<br>";
 ?>
 <hr>
-```php
+php
 <?php
 
 function volume($length, $width = 10, $height = 15)
@@ -21,5 +21,7 @@ print "盒子體積：" . volume($l, $w, $h) . "<br/>";
 print "盒子體積：" . volume($l, $w) . "<br/>";
 print "盒子體積：" . volume($l) . "<hr/>";
 
+$func = "volume";
+print "盒子體積：" . $func($l, $w, $h) . "<br/>";
+print "盒子體積：" . $func($l, $w) . "<br/>";
 ?>
-```

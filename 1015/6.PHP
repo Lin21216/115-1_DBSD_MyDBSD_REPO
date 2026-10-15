@@ -7,33 +7,17 @@ function printHeader()
     echo "<hr>";
 }
 
-function callFunc1(Closure $closure)
-{
-    $closure();
-}
-
-function callFunc2(callable $callback)
-{
-    $callback();
-}
-
-$hello = function () {
-    echo "Hello, World!<br/>";
-};
-
-function hi()
-{
-    echo "Hi, World!<br/>";
-}
-
 printHeader();
 
-// callFunc1("hi");
+$weight = 75;
 
-callFunc1($hello);
+$bmi = function ($height) use ($weight) {
+    $height = $height / 100.0;
+    return $weight / $height / $height;
+};
 
-callFunc2("hi");
+$h = 175;
 
-callFunc2($hello);
+echo "BMI = " . $bmi($h) . "<br/>";
 
 ?>

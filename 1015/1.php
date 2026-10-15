@@ -5,7 +5,7 @@ echo "EX01<br>";
 ?>
 <hr>
 
-```php
+php
 <?php
 
 function printHeader() {
@@ -24,4 +24,3 @@ echo "<p>這是一個簡單的 PHP 網頁。</p>";
 printFooter(); // 呼叫函數顯示頁尾
 
 ?>
-```
