@@ -14,7 +14,7 @@ function printHeader() {
 
 function printFooter() {
     echo "<hr><br>";
-    echo "(c) C1234567-Smith. 保留所有權利。";
+    echo "(c) C113181115-Smith. 保留所有權利。";
 }
 
 printHeader(); // 呼叫函數顯示標題
