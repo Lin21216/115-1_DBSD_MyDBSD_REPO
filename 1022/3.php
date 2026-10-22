@@ -19,6 +19,4 @@ echo "<br/>";
 
 $arr["type"] = "PHP";
 unset($arr["type"]);
-
-print_r($arr);
 ?>
