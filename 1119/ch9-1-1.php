@@ -1,13 +1,16 @@
+
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8" />
     <title>ch9-1-1.php</title>
+    
 </head>
 
 <body>
     <?php
+    require "about_me.php";
     $file = basename($_SERVER["PHP_SELF"], ".php");
     $path = realpath($file . ".php"); //取得檔案實際路徑
 
