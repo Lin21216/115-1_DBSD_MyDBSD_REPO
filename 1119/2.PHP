@@ -12,7 +12,7 @@ echo "real path: $path <BR/>";
 $part = pathinfo($path); //取得路徑資訊
 
 echo "path: " . $part["dirname"] . "<BR/>";
-echo "filename: " . $part["basename"] . "<BR/>";
+echo "filename: " . $part["filename"] . "<BR/>";
 echo "extension: " . $part["extension"] . "<HR/>";
 ?>
 </body>
